@@ -4,6 +4,7 @@ body{
     box-sizing:border-box;
 }
 h1{
+    color: #f5edd8;
     height: 55px;
     background: #8a2928;
     text-align: center;
