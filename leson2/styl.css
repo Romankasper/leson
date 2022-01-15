@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+    font-size: 25px;
+    box-sizing:border-box;
+}
+h1{
+    height: 55px;
+    background: #8a2928;
+    text-align: center;
+    font-size: 45px;
+    margin: 30px 20px;
+    box-sizing: border-box;
+}
+.target{
+    box-sizing: border-box;
+    height: 100px;
+    background: #c0c0c0;
+    margin: 0px 20px;
+    padding: 25px;
+}
+p{
+    box-sizing: border-box;
+    height: 135px;
+    background: #6496ec;
+    margin: 0px 20px;
+    padding: 55px 0px;
+}
+.square{
+    height:300px;
+    width: 300px;
+    background: #6cbb68;
+    margin: 0px 20px;
+}
+.tag{
+    box-sizing: border-box;
+    height:300px;
+    width: 300px;
+    background: #8987ac;
+    margin: 0px 20px;
+    border: 10px solid #8987ac;
+    border-radius: 20px;
+}
