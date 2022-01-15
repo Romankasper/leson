@@ -1,0 +1,49 @@
+body{
+    background: black;
+    font-size: 20px;
+    margin:200px 700px;
+}
+.black {
+    box-sizing: border-box;
+    width: 220px;
+    height: 60px;
+    border: 5px solid orange;
+    color: orange;
+    border-radius: 30px;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+}
+.green{
+    box-sizing: border-box;
+    width: 220px;
+    height: 60px;
+    border: 5px solid #2efff2;
+    color: #2efff2;
+    border-radius: 30px;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+}
+.grey{
+    box-sizing: border-box;
+    width: 220px;
+    height: 60px;
+    border: 5px solid #ff55a7;
+    color: #ff55a7;
+    border-radius: 30px;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+}
+.yelow{
+    box-sizing: border-box;
+    width: 220px;
+    height: 60px;
+    border: 5px solid #ff4040;
+    color: orange;
+    border-radius: 30px;
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+}
