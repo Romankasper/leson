@@ -1,0 +1,44 @@
+#container{
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+    width: 700px;
+    height: 400px;
+    font-size: 30px;
+    text-align: center;
+
+}
+#header{
+    display: flex;
+    flex-direction: column;
+
+}
+#item{
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+    justify-content: center;
+    
+}
+.menu1{
+    flex: 3;
+    background: silver;
+}
+.menu2{
+    flex: 1;
+    background: yellow;
+}
+.item{
+    background: green;
+}
+.content1{
+    background: blue;
+}
+.content2{
+    background: #d5ba9a;
+}
+.menu{
+    padding-top: 120px;
+}

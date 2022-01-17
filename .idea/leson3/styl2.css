@@ -1,0 +1,30 @@
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-align: center;
+}
+#header, #menu, .post, #footer{
+    border: 2px solid black;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    gap: 5px;
+}
+#section{
+    display: flex;
+    flex:1;
+    gap: 5px;
+}
+#aside{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    gap: 5px;
+}
+#menu{
+    padding-top: 12px;
+}

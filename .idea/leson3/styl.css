@@ -1,0 +1,26 @@
+.container{
+    border: 5px solid blue;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 400px;
+    justify-content: space-between;
+    gap: 10px;
+    font-size: 30px;
+}
+.item2{
+    display: flex;
+    flex: 1;
+    gap: 10px;
+}
+.item1{
+    background: yellow;
+}
+.child1{
+    background: green;
+flex: 3;
+}
+.child2{
+    background: #8a2928;
+    flex: 1;
+}
