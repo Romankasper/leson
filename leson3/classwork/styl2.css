@@ -1,0 +1,45 @@
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#box{
+    height: 300px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    background: silver;
+    gap: 5px;
+}
+.header{
+    height: 100px;
+    border: 1px solid black;
+
+}
+.section{
+    height: 195px;
+    width: 400px;
+    display: flex;
+    gap: 5px;
+}
+.web{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    gap: 5px;
+}
+.aside{
+    width: 95px;
+    border: 1px solid black;
+}
+.element{
+    width: 94px;
+    border: 1px solid black;
+}
+.pd{
+    padding:15px;
+}
+.pdb{
+    padding: 40px;
+}
