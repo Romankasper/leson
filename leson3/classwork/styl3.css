@@ -1,0 +1,39 @@
+#container{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    min-height: 100vh;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+.section{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+
+}
+.menu{
+    background: blue;
+    height: 50px;
+    flex: 1;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+ }
+ .element{
+     width: 195px;
+     height: 400px;
+     background: red;
+
+ }
+ .column{
+     width: 130px;
+     height: 200px;
+background: yellow;
+  }
