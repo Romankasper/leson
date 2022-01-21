@@ -1,0 +1,99 @@
+.box{
+    font-size: 20px;
+    text-align: center;
+}
+.container1 ,.container2 ,.container3{
+    align-items:stretch;
+    border: 1px solid red;
+    border-radius: 10px;
+    height: 300px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.container2 , .container3 {
+    margin-top: 50px;
+}
+
+.disflex{
+    display: flex;
+}
+.column{
+    flex-direction: column;
+}
+.header{
+    height: 90px;
+}
+.section1{
+    flex:4;
+}
+.section2{
+    flex: 4;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.target1{
+    width: 33%;
+}
+.section3{
+flex: 4;
+    flex-wrap: wrap;
+}
+.target2{
+    width: 33%;
+}
+.background{
+    background: #d9d9d9;
+}
+.gap5{
+    gap:5px;
+}
+.w-h100{
+    width: 100%;
+}
+.flex1{
+    flex: 1;
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .main1{
+        flex-direction: column;
+    }
+.main2{
+    flex-direction: column;
+}
+.section2{
+    justify-content: space-evenly;
+}
+.target1{
+    width: 20%;
+}
+.target{
+  height: 100px;
+}
+.container1, .container2, .container3{
+    margin: 30px;
+    align-items: center;
+}
+.gap5{
+    gap:10px;
+}
+.w-h100{
+    width: 90%;
+}
+.target{
+    width: 100%
+}
+
+.main3{
+    flex-direction: column;
+}
+.target2{
+    width: 25%;
+}
+.section3{
+    justify-content: space-evenly;
+    flex:1 ;
+}
+.aside3{
+    flex: 3;
+}
+}
